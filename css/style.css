@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:900|Playfair+Display:700');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English|Stylish');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+/*font-family: 'IM Fell English', serif;*/
+
+/*font-family: 'Playfair Display', serif;*/
+
+/*font-family: 'Elsie Swash Caps', cursive;*/
+
+/* height: 125vh;----do I need this for nav bar*/
+
+/*font-family: 'Old Standard TT', serif;*/
+
+header {
+	background: linear-gradient(to left, #1E9600, #FFF200, #FF0000);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 0 50px 0 #371D05;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+}
+/*Need a hover color that mimics Caribbean Sea color palette. Also can links to ingredients hover too?*/
+
+a:hover {
+	background-color: #00ffbf;
+	/*Make sure you are using hex code numbers and not color name*/
+	/*Figure out where to add the div and class for project*/
+}
+/*See how this might affect load time*/
+
+header * {
+	display: inline;
+}
+header li {
+	margin: 20px;
+}
+header li a {
+	color: #000000;
+	text-decoration: none;
+}
+body {
+	background-image: url(../images/newbackground.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	margin-top: 50px;
+	padding: 100px;
+	font-family: 'IM Fell English', serif;
+	font-size: 24px;
+	color: #000000;
+}
+img {
+	box-shadow: 0 0 20px 0 #371D05;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	max-width:100%;
+}
+#photo {
+	background: linear-gradient(to left, #1E9600, #FFF200, #FF0000);
+}
+#links {
+	text-align: center;
+	font-family: 'Old Standard TT', serif;
+	font-size: 18px;
+}
+h1, h2, h3 {
+	text-align: center;
+	background: linear-gradient(to left, #1E9600, #FFF200, #FF0000);
+	box-shadow: 0 0 50px 0 #371D05;
+	font-family: 'Playfair Display', serif;
+}
